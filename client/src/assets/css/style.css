@@ -1,0 +1,54 @@
+label {
+  user-select: none;
+} 
+.btn-small {
+  color: #FFFFFF;
+  border-radius: 20px;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 14px;
+  height: fit-content;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.btn-base {
+  background: linear-gradient(180deg, #8654EF 0%, #7343D7 100%);
+}
+.btn-save {
+  background: #fc2767e3;
+}
+.btn-action {
+  background: linear-gradient(180deg, #EF54DF 0%, #D74366 100%);
+}
+input, select, textarea {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  opacity: 0.6;
+  color: #001842;
+  border: 1px rgb(204, 204, 204) solid;
+  background: none;
+  padding-left: 10px;
+}
+
+span {
+  color: #001842c2;
+}
+
+button {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  user-select: none;
+}
