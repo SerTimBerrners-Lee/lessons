@@ -1,11 +1,11 @@
 # ExpressVueMonogoDB
 
-## Project setup
+## Project setup - docker || nodemon
 ```
-docker build || npm i
+sudo make build || npm i
 ```
 
-### Compiles for development
+### Compiles for development - docker || nodemon
 ```
-docker run || npm run serve
+sudo make run || npm run start
 ```
